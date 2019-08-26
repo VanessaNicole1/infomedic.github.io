@@ -1,0 +1,2276 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hospital-advanced documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">hospital-advanced documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>SolicitarCitaComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-solicitar-cita</code></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./solicitar-cita.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_citaService">_citaService</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_especialidadService">_especialidadService</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_loginService">_loginService</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_medicoService">_medicoService</a>
+                            </li>
+                            <li>
+                                <a href="#calendarListo">calendarListo</a>
+                            </li>
+                            <li>
+                                <a href="#calendarPlugins">calendarPlugins</a>
+                            </li>
+                            <li>
+                                <a href="#currentEspecialidad">currentEspecialidad</a>
+                            </li>
+                            <li>
+                                <a href="#currentMedico">currentMedico</a>
+                            </li>
+                            <li>
+                                <a href="#desde">desde</a>
+                            </li>
+                            <li>
+                                <a href="#desdeMedicos">desdeMedicos</a>
+                            </li>
+                            <li>
+                                <a href="#especialidades">especialidades</a>
+                            </li>
+                            <li>
+                                <a href="#especialistasListos">especialistasListos</a>
+                            </li>
+                            <li>
+                                <a href="#fechaSeleccionada">fechaSeleccionada</a>
+                            </li>
+                            <li>
+                                <a href="#horasDisponibles">horasDisponibles</a>
+                            </li>
+                            <li>
+                                <a href="#horaSelecionada">horaSelecionada</a>
+                            </li>
+                            <li>
+                                <a href="#medicosPorEspecialidad">medicosPorEspecialidad</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#router">router</a>
+                            </li>
+                            <li>
+                                <a href="#showEspecialidades">showEspecialidades</a>
+                            </li>
+                            <li>
+                                <a href="#totalMedicos">totalMedicos</a>
+                            </li>
+                            <li>
+                                <a href="#totalRegistro">totalRegistro</a>
+                            </li>
+                            <li>
+                                <a href="#validRange">validRange</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#agendarCita">agendarCita</a>
+                            </li>
+                            <li>
+                                <a href="#cambiarDesde">cambiarDesde</a>
+                            </li>
+                            <li>
+                                <a href="#cargarEspecialidades">cargarEspecialidades</a>
+                            </li>
+                            <li>
+                                <a href="#cargarFechaCalendar">cargarFechaCalendar</a>
+                            </li>
+                            <li>
+                                <a href="#cargarHorasDisponibles">cargarHorasDisponibles</a>
+                            </li>
+                            <li>
+                                <a href="#cargarHorasReales">cargarHorasReales</a>
+                            </li>
+                            <li>
+                                <a href="#cargarMedicosPorEspecialidad">cargarMedicosPorEspecialidad</a>
+                            </li>
+                            <li>
+                                <a href="#getCurrentDate">getCurrentDate</a>
+                            </li>
+                            <li>
+                                <a href="#mostrarCalendar">mostrarCalendar</a>
+                            </li>
+                            <li>
+                                <a href="#mostrarEspecialistas">mostrarEspecialistas</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#seleccionarHorario">seleccionarHorario</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_medicoService: <a href="../injectables/MedicoService.html">MedicoService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, _especialidadService: <a href="../injectables/EspecialidadService.html">EspecialidadService</a>, _citaService: <a href="../injectables/CitaService.html">CitaService</a>, _loginService: <a href="../injectables/LoginService.html">LoginService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:61</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Constructor</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_medicoService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MedicoService.html" target="_self" >MedicoService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_especialidadService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/EspecialidadService.html" target="_self" >EspecialidadService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_citaService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CitaService.html" target="_self" >CitaService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_loginService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LoginService.html" target="_self" >LoginService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="agendarCita"></a>
+                    <span class="name">
+                        <b>
+                            agendarCita
+                        </b>
+                        <a href="#agendarCita"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>agendarCita()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="251"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:251</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cambiarDesde"></a>
+                    <span class="name">
+                        <b>
+                            cambiarDesde
+                        </b>
+                        <a href="#cambiarDesde"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cambiarDesde(valor: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="100"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:100</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Este método ayuda para la paginación de especialidades.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>valor</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cargarEspecialidades"></a>
+                    <span class="name">
+                        <b>
+                            cargarEspecialidades
+                        </b>
+                        <a href="#cargarEspecialidades"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cargarEspecialidades()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="85"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:85</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método que carga todas las especialidades existentes.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cargarFechaCalendar"></a>
+                    <span class="name">
+                        <b>
+                            cargarFechaCalendar
+                        </b>
+                        <a href="#cargarFechaCalendar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cargarFechaCalendar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="176"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:176</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para cargar la fecha para el calendario.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cargarHorasDisponibles"></a>
+                    <span class="name">
+                        <b>
+                            cargarHorasDisponibles
+                        </b>
+                        <a href="#cargarHorasDisponibles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cargarHorasDisponibles()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="289"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:289</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cargarHorasReales"></a>
+                    <span class="name">
+                        <b>
+                            cargarHorasReales
+                        </b>
+                        <a href="#cargarHorasReales"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cargarHorasReales(arreglo: string[])</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="305"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:305</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>arreglo</td>
+                                    <td>
+                                            <code>string[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cargarMedicosPorEspecialidad"></a>
+                    <span class="name">
+                        <b>
+                            cargarMedicosPorEspecialidad
+                        </b>
+                        <a href="#cargarMedicosPorEspecialidad"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cargarMedicosPorEspecialidad(especialidad)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="144"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:144</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para cargar los médicos por especialidad.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>especialidad</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCurrentDate"></a>
+                    <span class="name">
+                        <b>
+                            getCurrentDate
+                        </b>
+                        <a href="#getCurrentDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getCurrentDate(tipo: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="188"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:188</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para convertir la fecha para el calendario.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>tipo</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mostrarCalendar"></a>
+                    <span class="name">
+                        <b>
+                            mostrarCalendar
+                        </b>
+                        <a href="#mostrarCalendar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>mostrarCalendar(medicoSeleccionado: <a href="../classes/Medico.html">Medico</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="218"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:218</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para mostrar el calendario</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>medicoSeleccionado</td>
+                                    <td>
+                                                <code><a href="../classes/Medico.html" target="_self" >Medico</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mostrarEspecialistas"></a>
+                    <span class="name">
+                        <b>
+                            mostrarEspecialistas
+                        </b>
+                        <a href="#mostrarEspecialistas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>mostrarEspecialistas(especialidad: <a href="../classes/Especialidad.html">Especialidad</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="122"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:122</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para mostrar todas las especialidades.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>especialidad</td>
+                                    <td>
+                                                <code><a href="../classes/Especialidad.html" target="_self" >Especialidad</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="78"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:78</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="seleccionarHorario"></a>
+                    <span class="name">
+                        <b>
+                            seleccionarHorario
+                        </b>
+                        <a href="#seleccionarHorario"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>seleccionarHorario(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="240"
+                            class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:240</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_citaService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            _citaService</b>
+                            <a href="#_citaService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/CitaService.html" target="_self" >CitaService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="75" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:75</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_especialidadService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            _especialidadService</b>
+                            <a href="#_especialidadService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/EspecialidadService.html" target="_self" >EspecialidadService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="74" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:74</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_loginService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            _loginService</b>
+                            <a href="#_loginService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/LoginService.html" target="_self" >LoginService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:76</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_medicoService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            _medicoService</b>
+                            <a href="#_medicoService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/MedicoService.html" target="_self" >MedicoService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:72</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calendarListo"></a>
+                        <span class="name">
+                            <b>
+                            calendarListo</b>
+                            <a href="#calendarListo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:53</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calendarPlugins"></a>
+                        <span class="name">
+                            <b>
+                            calendarPlugins</b>
+                            <a href="#calendarPlugins"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[dayGridPlugin, interactionPlugin]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Calendario</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentEspecialidad"></a>
+                        <span class="name">
+                            <b>
+                            currentEspecialidad</b>
+                            <a href="#currentEspecialidad"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Especialidad.html" target="_self" >Especialidad</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:46</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentMedico"></a>
+                        <span class="name">
+                            <b>
+                            currentMedico</b>
+                            <a href="#currentMedico"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Medico.html" target="_self" >Medico</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:43</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Variables necesarias</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="desde"></a>
+                        <span class="name">
+                            <b>
+                            desde</b>
+                            <a href="#desde"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="desdeMedicos"></a>
+                        <span class="name">
+                            <b>
+                            desdeMedicos</b>
+                            <a href="#desdeMedicos"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:49</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="especialidades"></a>
+                        <span class="name">
+                            <b>
+                            especialidades</b>
+                            <a href="#especialidades"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Especialidad.html" target="_self" >Especialidad[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:45</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="especialistasListos"></a>
+                        <span class="name">
+                            <b>
+                            especialistasListos</b>
+                            <a href="#especialistasListos"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:52</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fechaSeleccionada"></a>
+                        <span class="name">
+                            <b>
+                            fechaSeleccionada</b>
+                            <a href="#fechaSeleccionada"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:59</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Variables para la cita</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="horasDisponibles"></a>
+                        <span class="name">
+                            <b>
+                            horasDisponibles</b>
+                            <a href="#horasDisponibles"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&quot;10:00&quot;, &quot;11:00&quot;, &quot;12:00&quot;, &quot;15:00&quot;, &quot;16:00&quot;, &quot;17:00&quot;, &quot;18:00&quot;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:61</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="horaSelecionada"></a>
+                        <span class="name">
+                            <b>
+                            horaSelecionada</b>
+                            <a href="#horaSelecionada"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;Seleccione una hora&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:60</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="medicosPorEspecialidad"></a>
+                        <span class="name">
+                            <b>
+                            medicosPorEspecialidad</b>
+                            <a href="#medicosPorEspecialidad"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Medico.html" target="_self" >Medico[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="router"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            router</b>
+                            <a href="#router"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:73</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showEspecialidades"></a>
+                        <span class="name">
+                            <b>
+                            showEspecialidades</b>
+                            <a href="#showEspecialidades"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:51</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="totalMedicos"></a>
+                        <span class="name">
+                            <b>
+                            totalMedicos</b>
+                            <a href="#totalMedicos"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:50</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="totalRegistro"></a>
+                        <span class="name">
+                            <b>
+                            totalRegistro</b>
+                            <a href="#totalRegistro"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validRange"></a>
+                        <span class="name">
+                            <b>
+                            validRange</b>
+                            <a href="#validRange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    start: &#x27;2017-05-01&#x27;,
+    end: &#x27;2017-06-01&#x27;
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/pages/citas/solicitar-cita/solicitar-cita.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { MedicoService } from &#x27;../../../services/medico/medico.service&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { EspecialidadService } from &#x27;../../../services/especialidad/especialidad.service&#x27;;
+import { Especialidad } from &#x27;../../../models/especialidad.model&#x27;;
+import { Medico } from &#x27;../../../models/medico.model&#x27;;
+
+/**
+ * Calendario
+ */
+
+ import dayGridPlugin from &#x27;@fullcalendar/daygrid&#x27;;
+ import interactionPlugin from &#x27;@fullcalendar/interaction&#x27;;
+import { CitaService } from &#x27;../../../services/cita/cita.service&#x27;;
+import { LoginService } from &#x27;../../../services/login/login.service&#x27;;
+
+ declare var $: any;
+ declare let swal: any;
+
+@Component({
+  selector: &#x27;app-solicitar-cita&#x27;,
+  templateUrl: &#x27;./solicitar-cita.component.html&#x27;,
+  styles: []
+})
+export class SolicitarCitaComponent implements OnInit {
+
+
+  /**
+   * Calendario
+   */
+  calendarPlugins &#x3D; [dayGridPlugin, interactionPlugin];
+
+
+  validRange &#x3D; {
+    start: &#x27;2017-05-01&#x27;,
+    end: &#x27;2017-06-01&#x27;
+  }
+
+/**
+ * Variables necesarias
+ */
+
+ currentMedico : Medico;
+  medicosPorEspecialidad: Medico[] &#x3D; [];
+  especialidades: Especialidad[] &#x3D; [];
+  currentEspecialidad : Especialidad;
+  desde: number &#x3D; 0;
+  totalRegistro:number &#x3D; 0;
+  desdeMedicos: number &#x3D; 0;
+  totalMedicos: number &#x3D; 0;
+  showEspecialidades &#x3D; [];
+  especialistasListos: boolean;
+  calendarListo: boolean;
+
+  /**
+   * Variables para la cita
+   */
+
+   fechaSeleccionada: string;
+   horaSelecionada: string &#x3D; &quot;Seleccione una hora&quot;;
+   horasDisponibles &#x3D; [&quot;10:00&quot;, &quot;11:00&quot;, &quot;12:00&quot;, &quot;15:00&quot;, &quot;16:00&quot;, &quot;17:00&quot;, &quot;18:00&quot;];
+
+
+
+/**
+ * Constructor
+ * @param _medicoService
+ * @param router
+ * @param _especialidadService
+ */
+
+  constructor(public _medicoService: MedicoService,
+    public router: Router,
+    public _especialidadService: EspecialidadService,
+    public _citaService: CitaService,
+    public _loginService: LoginService) { }
+
+  ngOnInit() {
+    this.cargarEspecialidades();
+  }
+
+  /**
+   * Método que carga todas las especialidades existentes.
+   */
+  cargarEspecialidades(){
+
+    this._especialidadService.cargarEspecialidades(this.desde)
+                            .subscribe((resp:any) &#x3D;&gt;{
+                                  this.totalRegistro &#x3D; resp.data.conteo;
+                                  this.especialidades &#x3D; resp.data.especialidades;
+                            });
+}
+
+
+/**
+ * Este método ayuda para la paginación de especialidades.
+ * @param valor
+ */
+
+cambiarDesde(valor: number){
+
+  let desde &#x3D; this.desde + valor;
+  console.log(desde);
+
+  if(desde &gt;&#x3D; this.totalRegistro){
+    return;
+  }
+
+  if(desde &lt; 0){
+    return;
+  }
+
+  this.desde +&#x3D; valor;
+  this.cargarEspecialidades();
+}
+
+
+/**
+ * Método para mostrar todas las especialidades.
+ * @param especialidad
+ */
+mostrarEspecialistas(especialidad: Especialidad){
+
+  this.especialistasListos &#x3D; true;
+  this.currentEspecialidad &#x3D; especialidad;
+ this.cargarMedicosPorEspecialidad(especialidad);
+
+}
+
+
+/**
+ * @ignore
+ */
+mostrarNuevamenteEspecialidades(){
+  this.especialistasListos &#x3D; false;
+  this.currentEspecialidad &#x3D; null;
+  this.cargarEspecialidades();
+}
+
+/**
+ * Método para cargar los médicos por especialidad.
+ * @param especialidad
+ */
+cargarMedicosPorEspecialidad(especialidad){
+
+  this._especialidadService.listarMedicosPorEspecialidad(especialidad.external_id, this.desdeMedicos).subscribe( (resp:any) &#x3D;&gt;{
+    this.totalMedicos &#x3D; resp.data.conteo;
+    this.medicosPorEspecialidad &#x3D; resp.data.medicos;
+  });
+
+}
+
+/**
+ *
+ * @ignore
+ */
+cambiarDesdeMedicos(valor: number){
+  let desde &#x3D; this.desdeMedicos + valor;
+
+  if(desde &gt;&#x3D; this.totalMedicos){
+    return;
+  }
+
+  if(desde &lt; 0){
+    return;
+  }
+
+  this.desdeMedicos +&#x3D; valor;
+  this.cargarMedicosPorEspecialidad(this.currentEspecialidad);
+}
+
+
+/**
+ * Método para cargar la fecha para el calendario.
+ */
+cargarFechaCalendar(){
+
+  this.validRange &#x3D; {
+    start: this.getCurrentDate(&#x27;INICIO&#x27;),
+    end: this.getCurrentDate(&#x27;FINAL&#x27;)
+  }
+}
+
+/**
+ * Método para convertir la fecha para el calendario.
+ * @param tipo
+ */
+getCurrentDate(tipo: string): string{
+
+  let fechaActual &#x3D; new Date();
+
+  let Unmes &#x3D; 1000 * 60 * 60 * 24 * 30;
+
+
+  if(tipo &#x3D;&#x3D;&#x3D; &quot;FINAL&quot;){
+
+    fechaActual.setTime(fechaActual.getTime() + Unmes);
+  }
+
+
+  let month &#x3D; fechaActual.getMonth() + 1;
+
+  let currentMonth &#x3D; month &lt; 10 ? &#x60;0${month}&#x60; : &#x60;${month}&#x60;;
+
+  let date &#x3D; fechaActual.getDate();
+
+  let currentDate &#x3D; date &lt; 10 ? &#x60;0${date}&#x60; : &#x60;${date}&#x60;;
+
+ return &#x60;${fechaActual.getFullYear()}-${currentMonth}-${currentDate}&#x60;;
+
+}
+
+
+/**
+ * Método para mostrar el calendario
+ * @param medicoSeleccionado
+ */
+mostrarCalendar(medicoSeleccionado: Medico){
+  this.currentMedico &#x3D; medicoSeleccionado;
+  this.cargarFechaCalendar();
+  this.calendarListo &#x3D; true;
+}
+
+
+
+/**
+ * @ignore
+ */
+mostrarNuevamenteEspecialistas(){
+  this.calendarListo &#x3D; false;
+  this.cargarMedicosPorEspecialidad(this.currentEspecialidad);
+}
+
+
+
+/**
+ *
+ * @param arg
+ */
+seleccionarHorario(event){ //handler method
+
+  console.log(event);
+
+ this.fechaSeleccionada &#x3D; event.startStr;
+ this.cargarHorasDisponibles();
+
+
+  $(&#x27;#exampleModal&#x27;).modal(&#x27;show&#x27;);
+}
+
+agendarCita(){
+  console.log(this.horaSelecionada);
+  if(this.horaSelecionada &#x3D;&#x3D;&#x3D; &quot;Seleccione una hora&quot;){
+    swal(&#x27;Error&#x27;, &#x27;Por favor seleccione una hora&#x27;, &#x27;warning&#x27;);
+  }
+
+  swal({
+    title: &quot;Está seguro?&quot;,
+    text:
+      &quot; Esta a punto de agendar una cita el día &quot; +
+      this.fechaSeleccionada +
+      &quot; a las &quot; + this.horaSelecionada + &quot; con el médico &quot; + this.currentMedico.nombres + &quot; en la especialidad &quot; + this.currentEspecialidad.nombre,
+    icon: &quot;warning&quot;,
+    buttons: true,
+    dangerMode: true
+  }).then(aceptar &#x3D;&gt; {
+
+
+    if (aceptar) {
+
+      let citaBody &#x3D; {
+        medico: this.currentMedico.external_id,
+        precioConsulta: this.currentEspecialidad.precioConsulta,
+        fecha: this.fechaSeleccionada,
+        hora: this.horaSelecionada
+
+      }
+
+      this._citaService.crearCita(this._loginService.usuario.external_id, citaBody)
+              .subscribe(resp &#x3D;&gt;{
+
+                $(&#x27;#exampleModal&#x27;).modal(&#x27;hide&#x27;);
+                /**Redireccionar a consultar citas*/
+              });
+    }
+  });
+}
+
+cargarHorasDisponibles(){
+
+  this._citaService.cargarHorasDisponibles(this.fechaSeleccionada,
+     this.currentMedico.external_id).subscribe((resp:any) &#x3D;&gt;{
+       this.horasDisponibles &#x3D; resp.data;
+
+          if(this.validRange.start &#x3D;&#x3D;&#x3D; this.fechaSeleccionada){
+
+            this.horasDisponibles &#x3D; this.cargarHorasReales(this.horasDisponibles);
+
+          }
+      });
+
+}
+
+
+cargarHorasReales(arreglo: string[]){
+
+  let horasFinalesDisponibles &#x3D; [];
+
+  let currentHour &#x3D; new Date().getHours();
+
+ arreglo.forEach(hora &#x3D;&gt;{
+
+   let base &#x3D; parseInt(hora.split(&quot;:&quot;)[0]);
+
+   if(currentHour &lt; base){
+
+    horasFinalesDisponibles.push(hora);
+
+   }
+
+  });
+  return horasFinalesDisponibles;
+
+}
+
+
+
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div&gt;
+    &lt;div class&#x3D;&quot;row&quot; *ngIf&#x3D;&quot;!especialistasListos&quot;&gt;
+        &lt;div class&#x3D;&quot;col-12&quot;&gt;
+            &lt;div class&#x3D;&quot;card&quot;&gt;
+                &lt;div class&#x3D;&quot;card-body&quot;&gt;
+
+                    &lt;h3 class&#x3D;&quot;card-title&quot;&gt;
+                        Especialidades( &lt;small&gt;{{ totalRegistro }}&lt;/small&gt; )
+                    &lt;/h3&gt;
+
+                    &lt;table class&#x3D;&quot;table table-hover&quot;&gt;
+                        &lt;thead&gt;
+                            &lt;tr&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Nombre&lt;/th&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Precio consulta&lt;/th&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Opción&lt;/th&gt;
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+
+                        &lt;tbody&gt;
+                            &lt;tr *ngFor&#x3D;&quot;let especialidad of especialidades&quot;&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;{{ especialidad.nombre }}&lt;/td&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;{{ especialidad.precioConsulta }}&lt;/td&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;
+                                    &lt;button (click)&#x3D;&quot;mostrarEspecialistas(especialidad)&quot; type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;
+                                     &lt;i class&#x3D;&quot;fa fa-eye&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/i&gt; Ver especialistas
+                                  &lt;/button&gt;
+
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+
+                    &lt;button type&#x3D;&quot;button&quot; (click)&#x3D;&quot;cambiarDesde(-5)&quot; class&#x3D;&quot;btn btn-secondary mr-1&quot;&gt;
+              Anteriores
+            &lt;/button&gt;
+                    &lt;button type&#x3D;&quot;button&quot; (click)&#x3D;&quot;cambiarDesde(5)&quot; class&#x3D;&quot;btn btn-secondary&quot;&gt;
+              Siguiente
+            &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;button *ngIf&#x3D;&quot;especialistasListos &amp;&amp; !calendarListo&quot; class&#x3D;&quot;btn btn-primary m-2&quot; (click)&#x3D;&quot;mostrarNuevamenteEspecialidades()&quot;&gt;Mostrar nuevamente las especialidades&lt;/button&gt;
+
+    &lt;div class&#x3D;&quot;row&quot; *ngIf&#x3D;&quot;especialistasListos &amp;&amp; !calendarListo&quot;&gt;
+        &lt;div class&#x3D;&quot;col-12&quot;&gt;
+            &lt;div class&#x3D;&quot;card&quot;&gt;
+                &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                    &lt;h3 class&#x3D;&quot;card-title&quot;&gt;
+                        Especialidades de &lt;small&gt;{{ currentEspecialidad.nombre }} ({{totalMedicos}})&lt;/small&gt;
+                    &lt;/h3&gt;
+
+                    &lt;table class&#x3D;&quot;table table-hover&quot;&gt;
+                        &lt;thead&gt;
+                            &lt;tr&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Especialista&lt;/th&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Foto&lt;/th&gt;
+                                &lt;th class&#x3D;&quot;text-center&quot;&gt;Opción&lt;/th&gt;
+
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                            &lt;tr *ngFor&#x3D;&quot;let medico of medicosPorEspecialidad&quot;&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;{{ medico.nombres }}&lt;/td&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;
+                                    &lt;img [src]&#x3D;&quot;medico.foto | imagen:&#x27;medico&#x27;&quot; class&#x3D;&quot;img-circle img-50&quot; alt&#x3D;&quot;&quot;&gt;
+                                &lt;/td&gt;
+                                &lt;td class&#x3D;&quot;text-center&quot;&gt;
+                                    &lt;button (click)&#x3D;&quot;mostrarCalendar(medico)&quot; class&#x3D;&quot;btn btn-info&quot;&gt;
+                                   Seleccionar médico
+                                 &lt;/button&gt;
+
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+
+                    &lt;button type&#x3D;&quot;button&quot; (click)&#x3D;&quot;cambiarDesdeMedicos(-5)&quot; class&#x3D;&quot;btn btn-secondary mr-1&quot;&gt;
+              Anteriores
+            &lt;/button&gt;
+                    &lt;button type&#x3D;&quot;button&quot; (click)&#x3D;&quot;cambiarDesdeMedicos(5)&quot; class&#x3D;&quot;btn btn-secondary&quot;&gt;
+              Siguiente
+            &lt;/button&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button *ngIf&#x3D;&quot;calendarListo&quot; class&#x3D;&quot;btn btn-primary m-2&quot; (click)&#x3D;&quot;mostrarNuevamenteEspecialistas()&quot;&gt;Mostrar nuevamente los especialistas&lt;/button&gt;
+    &lt;!--CALENDARIO--&gt;
+    &lt;div class&#x3D;&quot;&quot; *ngIf&#x3D;&quot;calendarListo&quot;&gt;
+        &lt;h3&gt;Por favor seleccione el día a solicitar la cita&lt;/h3&gt;
+
+        &lt;full-calendar locale&#x3D;&quot;es&quot; [validRange]&#x3D;&quot;validRange&quot; (select)&#x3D;&quot;seleccionarHorario($event)&quot; hiddenDays&#x3D;&quot;[0, 6]&quot; selectable&#x3D;&quot;true&quot; [plugins]&#x3D;&quot;calendarPlugins&quot;&gt;
+
+        &lt;/full-calendar&gt;
+
+
+
+        &lt;!-- Modal --&gt;
+        &lt;div class&#x3D;&quot;modal fade&quot; id&#x3D;&quot;exampleModal&quot; tabindex&#x3D;&quot;-1&quot; role&#x3D;&quot;dialog&quot; aria-labelledby&#x3D;&quot;exampleModalLabel&quot; aria-hidden&#x3D;&quot;true&quot;&gt;
+            &lt;div class&#x3D;&quot;modal-dialog&quot; role&#x3D;&quot;document&quot;&gt;
+                &lt;div class&#x3D;&quot;modal-content&quot;&gt;
+                    &lt;div class&#x3D;&quot;modal-header&quot;&gt;
+                        &lt;h5 class&#x3D;&quot;modal-title&quot; id&#x3D;&quot;exampleModalLabel&quot;&gt;Seleccione la hora de la cita para el {{fechaSeleccionada}}&lt;/h5&gt;
+                        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;close&quot; data-dismiss&#x3D;&quot;modal&quot; aria-label&#x3D;&quot;Close&quot;&gt;
+            &lt;span aria-hidden&#x3D;&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+
+                        &lt;select [(ngModel)]&#x3D;&quot;horaSelecionada&quot; name&#x3D;&quot;horaSelecionada&quot; class&#x3D;&quot;form-control form-control-sm&quot;&gt;
+                            &lt;option  selected&#x3D;&quot;selected&quot; disabled&gt;Seleccione una hora&lt;/option&gt;
+                            &lt;option  *ngFor&#x3D;&quot;let horas of horasDisponibles&quot;&gt;{{horas}}&lt;/option&gt;
+                          &lt;/select&gt;
+
+
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;modal-footer&quot;&gt;
+                        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-secondary&quot; data-dismiss&#x3D;&quot;modal&quot;&gt;Cerrar&lt;/button&gt;
+                        &lt;button type&#x3D;&quot;button&quot; (click)&#x3D;&quot;agendarCita()&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;Seleccionar horario&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+
+
+&lt;/div&gt;</code></pre>
+    </div>
+
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div>    <div class="row" *ngIf="!especialistasListos">        <div class="col-12">            <div class="card">                <div class="card-body">                    <h3 class="card-title">                        Especialidades( <small>{{ totalRegistro }}</small> )                    </h3>                    <table class="table table-hover">                        <thead>                            <tr>                                <th class="text-center">Nombre</th>                                <th class="text-center">Precio consulta</th>                                <th class="text-center">Opción</th>                            </tr>                        </thead>                        <tbody>                            <tr *ngFor="let especialidad of especialidades">                                <td class="text-center">{{ especialidad.nombre }}</td>                                <td class="text-center">{{ especialidad.precioConsulta }}</td>                                <td class="text-center">                                    <button (click)="mostrarEspecialistas(especialidad)" type="button" class="btn btn-primary">                                     <i class="fa fa-eye" aria-hidden="true"></i> Ver especialistas                                  </button>                                </td>                            </tr>                        </tbody>                    </table>                    <button type="button" (click)="cambiarDesde(-5)" class="btn btn-secondary mr-1">              Anteriores            </button>                    <button type="button" (click)="cambiarDesde(5)" class="btn btn-secondary">              Siguiente            </button>                </div>            </div>        </div>    </div>    <button *ngIf="especialistasListos && !calendarListo" class="btn btn-primary m-2" (click)="mostrarNuevamenteEspecialidades()">Mostrar nuevamente las especialidades</button>    <div class="row" *ngIf="especialistasListos && !calendarListo">        <div class="col-12">            <div class="card">                <div class="card-body">                    <h3 class="card-title">                        Especialidades de <small>{{ currentEspecialidad.nombre }} ({{totalMedicos}})</small>                    </h3>                    <table class="table table-hover">                        <thead>                            <tr>                                <th class="text-center">Especialista</th>                                <th class="text-center">Foto</th>                                <th class="text-center">Opción</th>                            </tr>                        </thead>                        <tbody>                            <tr *ngFor="let medico of medicosPorEspecialidad">                                <td class="text-center">{{ medico.nombres }}</td>                                <td class="text-center">                                    <img [src]="medico.foto | imagen:\'medico\'" class="img-circle img-50" alt="">                                </td>                                <td class="text-center">                                    <button (click)="mostrarCalendar(medico)" class="btn btn-info">                                   Seleccionar médico                                 </button>                                </td>                            </tr>                        </tbody>                    </table>                    <button type="button" (click)="cambiarDesdeMedicos(-5)" class="btn btn-secondary mr-1">              Anteriores            </button>                    <button type="button" (click)="cambiarDesdeMedicos(5)" class="btn btn-secondary">              Siguiente            </button>                </div>            </div>        </div>    </div>    <button *ngIf="calendarListo" class="btn btn-primary m-2" (click)="mostrarNuevamenteEspecialistas()">Mostrar nuevamente los especialistas</button>    <!--CALENDARIO-->    <div class="" *ngIf="calendarListo">        <h3>Por favor seleccione el día a solicitar la cita</h3>        <full-calendar locale="es" [validRange]="validRange" (select)="seleccionarHorario($event)" hiddenDays="[0, 6]" selectable="true" [plugins]="calendarPlugins">        </full-calendar>        <!-- Modal -->        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">            <div class="modal-dialog" role="document">                <div class="modal-content">                    <div class="modal-header">                        <h5 class="modal-title" id="exampleModalLabel">Seleccione la hora de la cita para el {{fechaSeleccionada}}</h5>                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">            <span aria-hidden="true">&times;</span>          </button>                    </div>                    <div class="modal-body">                        <select [(ngModel)]="horaSelecionada" name="horaSelecionada" class="form-control form-control-sm">                            <option  selected="selected" disabled>Seleccione una hora</option>                            <option  *ngFor="let horas of horasDisponibles">{{horas}}</option>                          </select>                    </div>                    <div class="modal-footer">                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>                        <button type="button" (click)="agendarCita()" class="btn btn-primary">Seleccionar horario</button>                    </div>                </div>            </div>        </div>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BreadcrumbsComponent', 'selector': 'app-breadcrumbs'},{'name': 'BusquedaComponent', 'selector': 'app-busqueda'},{'name': 'CitasComponent', 'selector': 'app-citas'},{'name': 'CitasDiariasComponent', 'selector': 'app-citas-diarias'},{'name': 'ConsultaComponent', 'selector': 'app-consulta'},{'name': 'ConsultasComponent', 'selector': 'app-consultas'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'EspecialidadComponent', 'selector': 'app-especialidad'},{'name': 'GraphicsComponent', 'selector': 'app-graphics'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HistorialComponent', 'selector': 'app-historial'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MedicoComponent', 'selector': 'app-medico'},{'name': 'MedicosComponent', 'selector': 'app-medicos'},{'name': 'ModalUploadComponent', 'selector': 'app-modal-upload'},{'name': 'NopagefoundComponent', 'selector': 'app-nopagefound'},{'name': 'PagesComponent', 'selector': 'app-pages'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'ProgressComponent', 'selector': 'app-progress'},{'name': 'RegisterComponent', 'selector': 'app-register'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SolicitarCitaComponent', 'selector': 'app-solicitar-cita'},{'name': 'UsuariosComponent', 'selector': 'app-usuarios'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'SolicitarCitaComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'SolicitarCitaComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
